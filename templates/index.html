@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Веб-сайт</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+	    <label for="username">Введите IP</label>
+	    <input type="text" name="ip" id="ip"></p>
+        <p><input type="submit"></p>
+        {% if page == 1 %}
+            <p>{{ ip }} </p>
+        {% endif %}
+    </form>
+</body>
+</html>
